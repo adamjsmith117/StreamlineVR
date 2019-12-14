@@ -1,0 +1,112 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GrabPinch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GrabGrip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/default/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/default/in/Squeeze",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/default/in/HeadsetOnHead",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/default/in/speed",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/move",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/toggle_menu",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/touchpadact",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/LockRotation",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Tgrab",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GoScale",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/out/Haptic",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "knuckles",
+      "binding_url": "application_generated_unity_streamlinevr_exe_binding_knuckles.json"
+    },
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "application_generated_unity_streamlinevr_exe_binding_vive_controller.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/GrabGrip": "Grab Grip",
+      "/actions/default/in/GrabPinch": "Grab Pinch",
+      "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
+      "/actions/default/in/InteractUI": "Interact With UI",
+      "/actions/default/in/LockRotation": "LockRotation",
+      "/actions/default/in/Pose": "Pose",
+      "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
+      "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
+      "/actions/default/in/Teleport": "Teleport",
+      "/actions/default/in/Tgrab": "Tgrab",
+      "/actions/default/in/move": "move",
+      "/actions/default/in/speed": "speed",
+      "/actions/default/in/touchpadact": "touchpadact",
+      "/actions/default/out/Haptic": "Haptic",
+      "/actions/default/in/GoScale": "GoScale"
+    }
+  ]
+}
